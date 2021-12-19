@@ -27,7 +27,8 @@ Download
 Compilation:
 
 gcc -O2 otcc.c -o otcc -ldl
-gcc -O2 otccelf.c -o otccelf 
+gcc -O2 otccelf.c -o otccelf
+gcc -O2 otccw.c -o otccw.exe
 
 Self-compilation:
 
@@ -69,14 +70,17 @@ Examples:
     Sample compilation and execution:
 
     otcc otccex.c 10
+    otccw otccex.c 10
 
     Self compilation:
 
     otcc otcc.c otccex.c 10
+    otccw otccw.c otccex.c 10
 
     Self compilation iterated...
 
     otcc otcc.c otcc.c otccex.c 10
+    otccw otccw.c otccw.c otccex.c 10
 
 An alternate syntax is to use it as a script interpreter: you can put
 
