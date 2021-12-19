@@ -605,8 +605,8 @@ decl(l)
 
 main(n, t)
 {
-    file = stdin;
     lib = _loaddll("msvcrt");
+    file = stdin;
     if (n-- > 1) {
         t = t + 4;
         file = fopen(*(int *)t, "r");

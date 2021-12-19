@@ -429,8 +429,8 @@ k r G;
 }
 }
 main(g,n{
-Q=stdin;
 xx=_loaddll("msvcrt");
+Q=stdin;
 a g-->1){
 e=e t;
 Q=fopen(k e,"r");
