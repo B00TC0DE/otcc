@@ -26,9 +26,9 @@ Download
 
 Compilation:
 
-gcc -O2 otcc.c -o otcc -ldl
-gcc -O2 otccelf.c -o otccelf
-gcc -O2 otccw.c -o otccw.exe 
+    gcc -O2 otcc.c -o otcc -ldl
+    gcc -O2 otccelf.c -o otccelf
+    gcc -O2 otccw.c -o otccw.exe
 
 Self-compilation:
 
